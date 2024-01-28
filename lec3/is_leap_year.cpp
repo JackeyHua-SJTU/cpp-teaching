@@ -6,6 +6,13 @@ using namespace std;
 //* 是，则输出yes，否则输出no
 
 int main() {
+    int x;
+    cin >> x;
 
+    if ((x % 4 == 0 && x % 100 != 0) || x % 400 == 0) {
+        cout << "yes" << endl;
+    } else {
+        cout << "no" << endl;
+    }
     return 0;
 }

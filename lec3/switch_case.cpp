@@ -13,6 +13,7 @@ int main() {
     
     case 2:
         cout << "x is 2" << endl;
+        break;
 
     default:
         cout << "x is neither 1 nor 2" << endl;
