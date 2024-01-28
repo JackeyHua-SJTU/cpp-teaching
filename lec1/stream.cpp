@@ -11,10 +11,12 @@ int main() {
 
     // This is a single line comment.
     std::cout << "x: " << x << std::endl; // output: 3
+    // num is a variable 
     int num;
 
     // cin and cout will be directed to the standard input and output. (console)
     // Namely, fd = 0 and fd = 1.
+
 
     std::cout << "input a number: ";
     std::cin >> num;

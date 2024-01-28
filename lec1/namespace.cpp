@@ -12,6 +12,7 @@ namespace np2 {
     int y = 4;
 }
 
+
 int main() {
     std::cout << "x in np1: " << np1::x << std::endl; // output: 1
     std::cout << "y in np1: " << np1::y << std::endl; // output: 2
