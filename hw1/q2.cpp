@@ -13,6 +13,8 @@ int main() {
     double u, v;
 
     // TODO: write your code here
-
+    cin >> x >> y >> u >> v;
+    double avg = (x + y + u + v) / 4.0;
+    cout << static_cast<int>(avg + 0.5) << endl;
     return 0;
 }

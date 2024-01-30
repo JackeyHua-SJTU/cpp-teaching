@@ -18,6 +18,21 @@ int main() {
     cin >> x >> y;
 
     // TODO: write your code here
+    int x_code = (x >= 'A' && x <= 'Z') ? x - 'A' + 1 : x - 'a' + 1;
+    int y_code = (y >= 'A' && y <= 'Z') ? y - 'A' + 1 : y - 'a' + 1;
+    // cout << x_code / 10 << x_code % 10 << y_code / 10 << y_code % 10 << endl;
+
+    if (x_code < 10) {
+        cout << 0 << x_code;
+    } else {
+        cout << x_code;
+    }
+
+    if (y_code < 10) {
+        cout << 0 << y_code;
+    } else {
+        cout << y_code;
+    }
 
     return 0;
 }

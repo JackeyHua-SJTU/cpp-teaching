@@ -17,9 +17,30 @@ using namespace std;
 int main() {
     char x;
     cin.get(x);
-    cout << x;
 
     // TODO: write your code here
+    if (x >= 'a' && x <= 'z') {
+        switch (x)
+        {
+        case 'a':
+
+        case 'e':
+
+        case 'i':
+            
+        case 'o':
+            
+        case 'u':
+            cout << "vowel\n"; 
+            break;
+        
+        default:
+            cout << "consonant\n";
+            break;
+        }
+    } else {
+        cout << "not a letter\n";
+    }
 
 
     return 0;
