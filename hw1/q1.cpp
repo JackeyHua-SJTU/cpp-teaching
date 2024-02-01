@@ -19,6 +19,8 @@ int main() {
     cin.get(x);
 
     // TODO: write your code here
+    // ASCII 0-127
+    // 在进行四则运算的时候 char类型是以整数的形式参与运算的
     if (x >= 'a' && x <= 'z') {
         switch (x)
         {
